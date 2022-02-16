@@ -1,0 +1,87 @@
+.nav {
+  height: 50px;
+  border-bottom : 1px solid black;
+  display : flex;
+  align-items: center;
+}
+.nave-right-items{
+  display : flex;
+  margin-left : auto;
+}
+.nav-item{
+  margin-left : 10px;
+}
+a:link { color: black; text-decoration : none;}
+
+a:visited { color : black; text-decoration: none;}
+
+a:hover { color : rgb(168, 163, 118); text-decoration: underline;}
+.title{
+  text-align : center;
+  font-size : 3.5rem;
+  font-weight : bold;
+}
+.subtitle{
+  text-align : center;
+  font-size : 1.25rem;
+  font-weight : 300;
+}
+.main {
+  width:1000px;
+  margin : 0 auto;
+  margin-top : 60px;
+}
+.prices{
+  display: flex;
+  text-align : center;
+}
+.price-item{
+  width: 300px;
+  height : 350px;
+  border : 1px solid black;
+  margin: 20px;
+  border-radius : 4px;
+}
+.price-item-title{
+  font-size: 1.5rem;
+  background : rgba(0,0,0,.03);
+  height : 53px;
+  Line-height : 53px;
+  border-bottom: 1px solid black;
+
+}
+.price-item-price{
+  font-size : 2.5rem;
+  font-weight : bold;
+  padding : 20px;
+}
+.price-signup-button{
+  margin-left : 20px;
+  margin-right: 15px;
+  line-height : 1.5;
+  border-radius : .3rem;
+  color : #007bff;
+  background-color : transparent;
+  background-image : none;
+  border-color : #007bff;
+}
+.price-item-button{
+  padding : .5rem 1rem;
+  font-size : 1.25rem;
+  line-height : 1.5;
+  border-radius : .3rem;
+  color : #007bff;
+  background-color : transparent;
+  background-image : none;
+  border-color : #007bff;
+  margin-top : 30px;
+}
+.price-item-button-active{
+  background-color : #007bff;
+  color : white;
+}
+
+.price-item-detail{
+  margin-bottom : 5px;
+  font-size : 18px;
+}
